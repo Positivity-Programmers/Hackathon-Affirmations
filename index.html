@@ -28,19 +28,23 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- FONT AWSOME Link -->
+    <script
+      src="https://kit.fontawesome.com/b11be1e679.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Link to stylesheet and Javascript-->
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/script.js" defer></script>
     <script src="assets/js/lettergenerator.js" defer></script>
   </head>
   <body>
-
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="images/logo.png"
+            src="images/logo.webp"
             alt="Logo"
             width="160"
             height="160"
@@ -76,12 +80,9 @@
               <a class="nav-link" href="#articles">Articles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#emailgenerator"
-                >Email Generator</a
-              >
+              <a class="nav-link" href="#emailgenerator">Email Generator</a>
             </li>
           </ul>
-
         </div>
       </div>
     </nav>
@@ -90,58 +91,171 @@
     <main>
       <!-- Affirmations Generator -->
       <section id="generator">
-
-
-        <button id="affirm-btn"> Generate </button>
+        <button id="affirm-btn">Generate</button>
 
         <div id="display-affirm"></div>
-
       </section>
       <!-- Positive Quotes -->
       <section id="quotes" class="text-center py-5 bg-blue">
         <div class="container">
-            <h2 class="mb-5">Positive Quotes</h2>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 quote-circle">
-                    <div class="circle">"The best way to predict the future is to create it." - Peter Drucker</div>
-                </div>
-                <div class="col-lg-4 col-md-6 quote-circle">
-                    <div class="circle">"You do not find the happy life. You make it." - Camilla Eyring Kimball</div>
-                </div>
-                <div class="col-lg-4 col-md-6 quote-circle">
-                    <div class="circle">"Happiness is not by chance, but by choice." - Jim Rohn</div>
-                </div>
+          <h2 class="mb-5">Positive Quotes</h2>
+          <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6 quote-circle">
+              <div class="circle">
+                "The best way to predict the future is to create it." - Peter
+                Drucker
+              </div>
             </div>
+            <div class="col-lg-4 col-md-6 quote-circle">
+              <div class="circle">
+                "You do not find the happy life. You make it." - Camilla Eyring
+                Kimball
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 quote-circle">
+              <div class="circle">
+                "Happiness is not by chance, but by choice." - Jim Rohn
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
       <!-- About Us -->
       <section id="about"></section>
       <!-- Articles Cards-->
-      <section id="articles"></section>
+      <section class="section__articles" id="articles">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card__picture-box">
+                  <img
+                    src="images/card-photo-1.jpg"
+                    class="card-img-top card__picture"
+                    alt="Card photo 1"
+                  />
+                </div>
+                <div class="card-body">
+                  <span>
+                    <i class="fa-solid fa-face-laugh-beam card__icon"></i>
+                  </span>
+                  <h5 class="card-title">
+                    Embracing Mindfulness in Daily Life
+                  </h5>
+                  <p class="card-text">
+                    In today's fast-paced world, finding moments of peace can
+                    seem challenging. However, the practice of mindfulness
+                    offers a simple, yet profound way to anchor ourselves in the
+                    present moment. Mindfulness involves paying full attention
+                    to our experiences, thoughts, and emotions without judgment.
+                    Start by dedicating a few minutes each day to focus on your
+                    breathing or take a mindful walk, fully observing your
+                    surroundings. Embracing mindfulness can reduce stress,
+                    enhance emotional balance, and bring a deeper appreciation
+                    for the small joys of daily life.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card__picture-box">
+                  <img
+                    src="images/card-photo-2.jpg"
+                    class="card-img-top card__picture"
+                    alt="Card photo 2"
+                  />
+                </div>
+                <div class="card-body">
+                  <span>
+                    <i class="fa-solid fa-face-laugh-wink card__icon"></i>
+                  </span>
+                  <h5 class="card-title">
+                    The Power of Gratitude: Transforming Your Outlook
+                  </h5>
+                  <p class="card-text">
+                    Gratitude is more than just saying "thank you." It's a
+                    powerful practice that can transform your outlook on life.
+                    By focusing on the abundance rather than the lack, we open
+                    our hearts to the myriad of blessings surrounding us. To
+                    cultivate gratitude, consider keeping a daily gratitude
+                    journal, noting three things you're thankful for each day.
+                    This simple practice can increase positivity, improve sleep
+                    quality, and foster resilience. Remember, gratitude isn't
+                    just for the good times—it's about finding light even on the
+                    darker days.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card__picture-box">
+                  <img
+                    src="images/card-photo-3.jpg"
+                    class="card-img-top card__picture"
+                    alt="Card photo 3"
+                  />
+                </div>
+                <div class="card-body ut-margin-top">
+                  <span>
+                    <i class="fa-solid fa-face-smile-beam card__icon"></i>
+                  </span>
+                  <h5 class="card-title">
+                    Cultivating Joy Through Creative Expression
+                  </h5>
+                  <p class="card-text">
+                    Creativity is not confined to artists; it's a fundamental
+                    part of being human that brings joy and fulfillment.
+                    Engaging in creative activities, whether painting, writing,
+                    gardening, or cooking, can be a powerful way to express
+                    emotions and reduce stress. The process of creating
+                    something from nothing provides a sense of accomplishment
+                    and can be incredibly therapeutic. You don't have to be an
+                    expert to get started—embrace your innate creativity and let
+                    the process of exploration bring joy into your life.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Letter Generator -->
       <section class="container py-5" id="emailgenerator">
         <h2 class="mb-4 text-blue">Would you like to send a positive message to a friend?</h2>
         <h4 class="mb-4 text-blue">Letter Generator</h4>
         <form id="emailForm">
-            <div class="mb-3">
-                <label for="recipientEmail" class="form-label">Recipient's Email</label>
-                <input type="email" class="form-control" id="recipientEmail" required>
-            </div>
-            <div class="mb-3">
-                <label for="messageCategory" class="form-label">Message Category</label>
-                <select class="form-select" id="messageCategory" required>
-                    <option value="Motivation">Motivation</option>
-                    <option value="Gratitude">Gratitude</option>
-                    <option value="Inspiration">Inspiration</option>
-                </select>
-            </div>
-            <div class="mb-3">
-                <label for="senderName" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="senderName" required>
-            </div>
-            <button type="button" id="generateEmail" class="btn btn-primary">Generate and Send Email</button>
+          <div class="mb-3">
+            <label for="recipientEmail" class="form-label"
+              >Recipient's Email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="recipientEmail"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="messageCategory" class="form-label"
+              >Message Category</label
+            >
+            <select class="form-select" id="messageCategory" required>
+              <option value="Motivation">Motivation</option>
+              <option value="Gratitude">Gratitude</option>
+              <option value="Inspiration">Inspiration</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="senderName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="senderName" required />
+          </div>
+          <button type="button" id="generateEmail" class="btn btn-primary">
+            Generate and Send Email
+          </button>
         </form>
-    </section>
+      </section>
     </main>
     <!-- Footer -->
     <footer>
