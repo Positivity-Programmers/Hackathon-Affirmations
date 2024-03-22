@@ -8,26 +8,27 @@
     <script src="assets/js/lettergenerator.js" defer></script>
 </head>
 <body>
-    <div class="container mt-5">
-        <form id="letterForm">
-            <div class=" row mb-3">
-                <label for="recipientEmail" class="form-label">Recipient's Email</label>
-                <input type="email" class="form-control" id="recipientEmail" required>
-            </div>
-            <div class="mb-3">
-                <label for="messageCategory" class="form-label">Message Category</label>
-                <select class="form-select" id="messageCategory" required>
-                    <option value="motivation">Motivation</option>
-                    <option value="gratitude">Gratitude</option>
-                    <option value="inspiration">Inspiration</option>
-                </select>
-            </div>
-            <div class="mb-3">
-                <label for="senderName" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="senderName" required>
-            </div>
-            <button type="button" class="btn btn-primary" id="generateBtn">Generate and Send Email</button>
-        </form>
-    </div>
+    <div class="container py-5">
+    <h2 class="mb-4">Positive Email Generator</h2>
+    <form id="emailForm">
+        <div class="mb-3">
+            <label for="recipientEmail" class="form-label">Recipient's Email</label>
+            <input type="email" class="form-control" id="recipientEmail" required>
+        </div>
+        <div class="mb-3">
+            <label for="messageCategory" class="form-label">Message Category</label>
+            <select class="form-select" id="messageCategory" required>
+                <option value="Motivation">Motivation</option>
+                <option value="Gratitude">Gratitude</option>
+                <option value="Inspiration">Inspiration</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="senderName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="senderName" required>
+        </div>
+        <button type="button" id="generateEmail" class="btn btn-primary">Generate and Send Email</button>
+    </form>
+</div>
 </body>
 </html>
