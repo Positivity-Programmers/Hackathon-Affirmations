@@ -1,6 +1,6 @@
 document.getElementById("generateEmail").addEventListener("click", function() {
     const recipientEmail = document.getElementById("recipientEmail").value;
-    const messageCategory = document.getElementById("messageCategory").value.toLowerCase(); // Added toLowerCase() to match the case in your generateMessage function
+    const messageCategory = document.getElementById("messageCategory").value.toLowerCase(); // Added toLowerCase() to match the case in generateMessage function
     const senderName = document.getElementById("senderName").value;
     const subject = "A Special Message For You";
     const message = generateMessage(messageCategory, senderName);
