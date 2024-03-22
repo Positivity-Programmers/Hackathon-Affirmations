@@ -24,3 +24,10 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+/***** SECTION ARTICLES *****/
+
+.section__articles {
+  padding: 10rem 0;
+  background-color: #f2f2f2;
+}
