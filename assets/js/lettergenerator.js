@@ -1,4 +1,4 @@
-document.getElementById("generateBtn").addEventListener("click", function() {
+document.getElementById("generateEmail").addEventListener("click", function() {
     const recipientEmail = document.getElementById("recipientEmail").value;
     const messageCategory = document.getElementById("messageCategory").value;
     const senderName = document.getElementById("senderName").value;
