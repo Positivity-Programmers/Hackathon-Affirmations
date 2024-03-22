@@ -36,7 +36,6 @@ body {
   justify-content: flex-end;
 }
 
-D<<<<<<< HEA
 /***** SECTION ARTICLES *****/
 
 .section__articles {
@@ -103,7 +102,7 @@ D<<<<<<< HEA
   font-size: 1.2rem;
   text-align: center;
 }
-=======
+
 /** POSITIVE QUOTE CIRCLES **/
 .bg-blue {
   background-color: #4BBFB4;
@@ -140,4 +139,4 @@ D<<<<<<< HEA
       font-size: 0.7rem;
   }
 }
->>>>>>> 382d80e2aab0dab267b99b824ce1e4f5734d0dd1
+
