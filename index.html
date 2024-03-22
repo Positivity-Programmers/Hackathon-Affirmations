@@ -36,6 +36,7 @@
     <!-- Link to stylesheet and Javascript-->
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/lettergenerator.js" defer></script>
   </head>
   <body>
     <!-- Nav Bar -->
@@ -79,9 +80,7 @@
               <a class="nav-link" href="#articles">Articles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="letter-generator.html"
-                >Letter Generator</a
-              >
+              <a class="nav-link" href="#emailgenerator">Email Generator</a>
             </li>
           </ul>
         </div>
@@ -97,7 +96,30 @@
         <div id="display-affirm"></div>
       </section>
       <!-- Positive Quotes -->
-      <section id="quotes"></section>
+      <section id="quotes" class="text-center py-5 bg-blue">
+        <div class="container">
+          <h2 class="mb-5">Positive Quotes</h2>
+          <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6 quote-circle">
+              <div class="circle">
+                "The best way to predict the future is to create it." - Peter
+                Drucker
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 quote-circle">
+              <div class="circle">
+                "You do not find the happy life. You make it." - Camilla Eyring
+                Kimball
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 quote-circle">
+              <div class="circle">
+                "Happiness is not by chance, but by choice." - Jim Rohn
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- About Us -->
       <section id="about"></section>
       <!-- Articles Cards-->
@@ -200,7 +222,39 @@
         </div>
       </section>
       <!-- Letter Generator -->
-      <section></section>
+      <section class="container py-5" id="emailgenerator">
+        <h2 class="mb-4 text-blue">Positive Email Generator</h2>
+        <form id="emailForm">
+          <div class="mb-3">
+            <label for="recipientEmail" class="form-label"
+              >Recipient's Email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="recipientEmail"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="messageCategory" class="form-label"
+              >Message Category</label
+            >
+            <select class="form-select" id="messageCategory" required>
+              <option value="Motivation">Motivation</option>
+              <option value="Gratitude">Gratitude</option>
+              <option value="Inspiration">Inspiration</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="senderName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="senderName" required />
+          </div>
+          <button type="button" id="generateEmail" class="btn btn-primary">
+            Generate and Send Email
+          </button>
+        </form>
+      </section>
     </main>
     <!-- Footer -->
     <footer>

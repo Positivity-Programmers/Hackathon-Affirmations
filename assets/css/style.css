@@ -36,6 +36,7 @@ body {
   justify-content: flex-end;
 }
 
+D<<<<<<< HEA
 /***** SECTION ARTICLES *****/
 
 .section__articles {
@@ -102,3 +103,41 @@ body {
   font-size: 1.2rem;
   text-align: center;
 }
+=======
+/** POSITIVE QUOTE CIRCLES **/
+.bg-blue {
+  background-color: #4BBFB4;
+}
+.quote-circle .circle {
+  background-color: #fff3bf;
+  color: #333;
+  border-radius: 50%; 
+  height: 200px; 
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto; /* Center the circle in its column */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-size: 0.9rem; 
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .quote-circle .circle {
+      height: 150px;
+      width: 150px;
+      font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .quote-circle .circle {
+      height: 120px;
+      width: 120px;
+      font-size: 0.7rem;
+  }
+}
+>>>>>>> 382d80e2aab0dab267b99b824ce1e4f5734d0dd1
