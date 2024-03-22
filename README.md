@@ -1,12 +1,3 @@
-# [Daily Affirmations](https://positivity-programmers.github.io/Hackathon-Affirmations/)
-
-A Responsive Application for users to View Daily affirmations, Positive quotes, Well Being Articles and Generate Mindful Emails.
-
-**A March 2024 CodeInstitute Hackathon Project**
-
-HTML / CSS / Javascript / Bootstrap
-
-**By Positivity Programmers**
 <h1 align="center"><strong> :smiley: World Happiness Day! :smiley: </strong>
 
 </h1>
