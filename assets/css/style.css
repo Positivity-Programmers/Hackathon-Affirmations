@@ -1,11 +1,26 @@
-/***** GENERAL *****/
+/***** GENERAL RULES *****/
 
 body {
   font-family: "Nunito Sans", sans-serif;
 }
 
+
+/***** NAVIGATION *****/
 .navbar {
   display: flex;
   justify-content: space-between;
   background-color: #fff3bf;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: "Akaya Telivigala", system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
 }
