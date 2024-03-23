@@ -18,6 +18,7 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   color: var(--color-primary-dark);
+  
 }
 
 
@@ -64,6 +65,103 @@ body {
 .nav-link:active {
   color: var(--color-primary-dark);
   text-decoration: underline;
+}
+
+/***** SECTION AFFIRMATIONS GENERATOR *****/
+
+#generator {
+  background-color: #f2f2f2;
+}
+
+#affirm-header {
+  animation-duration: 5s;
+  animation-name: moveInLeft;
+  animation: moveInLeft 1s ease-out;
+}
+
+#affirm-btn {
+  background-color: #26605a;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 15px 40px;
+  border-radius: 1rem;
+  border-color: #26605a;
+  width: 20%;
+}
+
+#display-affirm {
+  background-color: #fff3bf;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translate(-100px);
+    }
+    
+    80% {
+        transform: translate(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@media (max-width: 800px) {
+  #affirm-btn {
+    width: 50%;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  #affirm-btn {
+    width: 60%;
+    font-size: 10px;
+  }
 }
 
 
