@@ -189,3 +189,28 @@ body {
   border-radius: 10px;
   background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
 }
+
+.letter__form label {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.letter__form input,
+.letter__form select {
+  font-size: 1.2rem;
+  font-family: inherit;
+  border: none;
+  color: inherit;
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.letter__form input::placeholder {
+  color: #aaa;
+}
+
+.letter__form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgba(253, 242, 233, 0.842);
+}
