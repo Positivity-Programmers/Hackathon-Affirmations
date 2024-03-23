@@ -25,10 +25,15 @@ body {
 
 .navbar-brand {
   display: flex;
+  flex-direction: row;
   align-items: center;
   font-family: "Akaya Telivigala", system-ui, sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
+}
+
+.navbar-brand img {
+  margin-right: 15px;
 }
 
 .navbar-collapse {
@@ -36,7 +41,10 @@ body {
   justify-content: flex-end;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a
 /***** SECTION ARTICLES *****/
 
 .section__articles {
@@ -46,7 +54,6 @@ body {
 
 .card {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
-
 }
 
 .card__picture-box {
@@ -76,7 +83,7 @@ body {
 .card__picture-box img {
   width: 100%;
   transition: 0.5s all ease-in-out;
-
+  display: block;
 }
 
 .card__picture-box:hover img {
@@ -96,7 +103,6 @@ body {
   font-size: 1.6rem;
   margin: 1.5rem 0 1.3rem 0;
   text-align: center;
-
 }
 
 .card-text {
@@ -126,7 +132,7 @@ body {
   text-align: center;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments For Positive Quote ciricles*/
 @media (max-width: 991px) {
   .quote-circle .circle {
     height: 150px;
@@ -143,5 +149,31 @@ body {
   }
 }
 
+<<<<<<< HEAD
 /***** LETTER GENERATOR FORM *****/
 
+=======
+/* Media query for Navbar */
+@media (max-width: 500px) {
+  .navbar-brand {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .navbar-brand img {
+    margin-bottom: 10px; 
+    margin-right: 0; 
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar-brand img {
+    width: 120px;
+    height: auto; 
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+>>>>>>> d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a

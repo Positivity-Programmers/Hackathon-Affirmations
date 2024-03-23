@@ -14,6 +14,13 @@
     />
     <!-- Title -->
     <title>Daily Affirmations</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
     <!-- Google Fonts Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,7 +49,7 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img
             src="images/logo.webp"
             alt="Logo"
@@ -123,25 +130,26 @@
       <!-- About Us -->
       <section id="about"></section>
       <!-- Articles Cards-->
-      <section class="section__articles" id="articles">
+      <section class="section__articles py-5" id="articles">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+            <div class="col">
               <div class="card h-100">
                 <div class="card__picture-box">
                   <img
-                    src="images/card-photo-1.jpg"
+                    src="images/card-photo-1.webp"
                     class="card-img-top card__picture"
                     alt="Card photo 1"
+                    width="400" height="300"
                   />
                 </div>
                 <div class="card-body">
                   <span>
                     <i class="fa-solid fa-face-laugh-beam card__icon"></i>
                   </span>
-                  <h5 class="card-title">
+                  <h3 class="card-title">
                     Embracing Mindfulness in Daily Life
-                  </h5>
+                  </h3>
                   <p class="card-text">
                     In today's fast-paced world, finding moments of peace can
                     seem challenging. However, the practice of mindfulness
@@ -157,22 +165,23 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col">
               <div class="card h-100">
                 <div class="card__picture-box">
                   <img
-                    src="images/card-photo-2.jpg"
+                    src="images/card-photo-2.webp"
                     class="card-img-top card__picture"
                     alt="Card photo 2"
+                    width="400" height="300"
                   />
                 </div>
                 <div class="card-body">
                   <span>
                     <i class="fa-solid fa-face-laugh-wink card__icon"></i>
                   </span>
-                  <h5 class="card-title">
+                  <h3 class="card-title">
                     The Power of Gratitude: Transforming Your Outlook
-                  </h5>
+                  </h3>
                   <p class="card-text">
                     Gratitude is more than just saying "thank you." It's a
                     powerful practice that can transform your outlook on life.
@@ -188,22 +197,23 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col d-flex justify-content-center">
               <div class="card h-100">
                 <div class="card__picture-box">
                   <img
-                    src="images/card-photo-3.jpg"
+                    src="images/card-photo-3.webp"
                     class="card-img-top card__picture"
                     alt="Card photo 3"
+                    width="400" height="300"
                   />
                 </div>
                 <div class="card-body ut-margin-top">
                   <span>
                     <i class="fa-solid fa-face-smile-beam card__icon"></i>
                   </span>
-                  <h5 class="card-title">
+                  <h3 class="card-title">
                     Cultivating Joy Through Creative Expression
-                  </h5>
+                  </h3>
                   <p class="card-text">
                     Creativity is not confined to artists; it's a fundamental
                     part of being human that brings joy and fulfillment.
@@ -223,8 +233,8 @@
       </section>
       <!-- Letter Generator -->
       <section class="container py-5" id="emailgenerator">
-        <h2 class="mb-4 text-blue">Positive Email Generator</h2>
-        <form class="letter__generator-box" id="emailForm">
+        <h2 class="mb-4 text-blue">Would you like to send a positive message to a friend?</h2>
+        <form id="emailForm">
           <div class="mb-3">
             <label for="recipientEmail" class="form-label"
               >Recipient's Email</label

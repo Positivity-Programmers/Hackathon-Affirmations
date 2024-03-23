@@ -1,14 +1,5 @@
-document.getElementById("generateEmail").addEventListener("click", function() {
-    const recipientEmail = document.getElementById("recipientEmail").value;
-    const messageCategory = document.getElementById("messageCategory").value.toLowerCase(); // Added toLowerCase() to match the case in generateMessage function
-    const senderName = document.getElementById("senderName").value;
-    const subject = "A Special Message For You";
-    const message = generateMessage(messageCategory, senderName);
-
-    // Open default mail client
-    window.location.href = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
-});
-
+// This File is here for Jest testing Purposing please do not edit.
+//  If you are attempting to edit The email generator code plese go to the file named "lettergenerator.js"
 function generateMessage(category, senderName) {
     const messages = {
         motivation: [
@@ -41,3 +32,6 @@ function generateMessage(category, senderName) {
     const randomIndex = Math.floor(Math.random() * categoryMessages.length);
     return `${categoryMessages[randomIndex]} - ${senderName}`;
 }
+
+// Below needed for Jest Testing
+module.exports = { generateMessage };
