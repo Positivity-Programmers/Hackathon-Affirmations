@@ -4,9 +4,8 @@
   --color-bg-card-dark: #4bbfb4;
   --color-bg-card-light: #c9ece9;
 
-  --color-primary-dar: #26605a;
-
-
+  --color-primary-dark: #26605a;
+  --color-primary-light: #edf9f8;
 }
 
 .ut-margin-top {
@@ -15,6 +14,7 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
+  color: var(--color-primary-dark);
 }
 
 
@@ -32,6 +32,7 @@ body {
   font-family: "Akaya Telivigala", system-ui, sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
+  color: currentColor;
 }
 
 .navbar-brand img {
@@ -178,5 +179,13 @@ body {
   font-size: 2.5rem;
   font-family: "Akaya Telivigala", system-ui, sans-serif;
   text-align: center;
-  color: var(--color-primary-dar);
+  color: var(--color-primary-dark);
+}
+
+.letter__form {
+  background-color: var(--color-bg-card-light);
+  padding: 2rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
 }
