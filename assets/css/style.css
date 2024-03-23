@@ -41,6 +41,10 @@ body {
   justify-content: flex-end;
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a
 /***** SECTION ARTICLES *****/
 
 .section__articles {
@@ -99,7 +103,6 @@ body {
   font-size: 1.6rem;
   margin: 1.5rem 0 1.3rem 0;
   text-align: center;
-
 }
 
 .card-text {
@@ -111,39 +114,45 @@ body {
 .bg-blue {
   background-color: #4BBFB4;
 }
+
 .quote-circle .circle {
   background-color: #fff3bf;
   color: #333;
-  border-radius: 50%; 
-  height: 200px; 
+  border-radius: 50%;
+  height: 200px;
   width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin: 0 auto; /* Center the circle in its column */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  font-size: 0.9rem; 
+  margin: 0 auto;
+  /* Center the circle in its column */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
   text-align: center;
 }
 
 /* Responsive adjustments For Positive Quote ciricles*/
 @media (max-width: 991px) {
   .quote-circle .circle {
-      height: 150px;
-      width: 150px;
-      font-size: 0.8rem;
+    height: 150px;
+    width: 150px;
+    font-size: 0.8rem;
   }
 }
 
 @media (max-width: 575px) {
   .quote-circle .circle {
-      height: 120px;
-      width: 120px;
-      font-size: 0.7rem;
+    height: 120px;
+    width: 120px;
+    font-size: 0.7rem;
   }
 }
 
+<<<<<<< HEAD
+/***** LETTER GENERATOR FORM *****/
+
+=======
 /* Media query for Navbar */
 @media (max-width: 500px) {
   .navbar-brand {
@@ -167,3 +176,4 @@ body {
     font-size: 1.2rem;
   }
 }
+>>>>>>> d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a
