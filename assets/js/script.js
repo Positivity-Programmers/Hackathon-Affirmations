@@ -1,8 +1,6 @@
-const affirmations = [
-    'I am the best',
-    'I am happy',
-    'I am loving life',
-]
+import { affirmations } from "./affirmations.js";
+
+
 
 const affirmBtn = document.getElementById('affirm-btn')
 const displayAffirm = document.getElementById('display-affirm')

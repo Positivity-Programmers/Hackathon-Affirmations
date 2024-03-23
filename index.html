@@ -42,7 +42,7 @@
     ></script>
     <!-- Link to stylesheet and Javascript-->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/script.js" type="module" defer></script>
     <script src="assets/js/lettergenerator.js" defer></script>
   </head>
   <body>
@@ -97,10 +97,16 @@
     <!-- Main Content -->
     <main>
       <!-- Affirmations Generator -->
-      <section id="generator">
-        <button id="affirm-btn">Generate</button>
+      <section id="generator" class="container-fluid text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="m-3">Affirmations</h2>
+            <button class="btn btn-lg bg-info m-3" id="affirm-btn">Generate</button>
 
-        <div id="display-affirm"></div>
+          </div>
+          <div id="display-affirm"></div>
+
+        </div>
       </section>
       <!-- Positive Quotes -->
       <section id="quotes" class="text-center py-5 bg-blue">
