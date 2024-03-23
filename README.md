@@ -16,38 +16,49 @@ HTML / CSS / Javascript / Bootstrap
 
 # SUBMISSION
 ## Deployment
-####
-The project is deployed and can be accessed at [https://positivity-programmers.github.io/Hackathon-Affirmations/](https://positivity-programmers.github.io/Hackathon-Affirmations/).
+The project is deployed with Git Pages and can be accessed at [https://positivity-programmers.github.io/Hackathon-Affirmations/](https://positivity-programmers.github.io/Hackathon-Affirmations/).
 
 ## Criteria
-In this section, we will briefly discuss how our team addressed the applicable criteria:
+Our team addressed the applicable criteria with innovative solutions:
 
--  Creative use of CSS frameworks (Bulma, Materialize, Bootstrap) to create an engaging and user-friendly design
--  Well-executed project with effective planning using GitHub Projects and a detailed README.md
--  Strong alignment with the Hackathon theme and innovative ideas
--  Project demonstrates responsiveness, accessibility, and thorough testing
--  Innovative features or functionalities beyond standard requirements
--  Emphasizing collaborative effort, active participation of each team member, inclusive practices, and the quality of code produced
+- Use of **Bootstrap** to ensure a responsive and engaging design.
+- Effective planning with **GitHub Projects** and documentation in **README.md**.
+- Aligns with the Hackathon theme through innovative features that promote happiness and well-being.
+- Demonstrates responsiveness, accessibility and has undergone testing across devices and browsers
+- Introduced innovative features like the **Mindful Email Generator** and **Affirmations Generator**.
+- Emphasized collaborative effort with active participation from all team members, showcasing high-quality code and inclusive practices.
 
 # ABOUT SUBMISSION
 ## Intro
-
-In an era where the hustle of daily life often overshadows moments of joy, our project emerges as a digital sanctuary for nurturing happiness. At its core, our application is inspired by the global pursuit of happiness—a theme that resonates deeply in today's world. It is designed to be a beacon of positivity, offering users daily affirmations, well-being tips, and a platform to spread kindness and joy.
-
-Our initiative taps into the simple, yet profound concept that happiness can be cultivated through mindfulness, gratitude, and connection. By integrating these elements into a user-friendly app, we aim to empower individuals to discover and share what brings them joy. This project isn't just about technology; it's about fostering a community that celebrates happiness and well-being, reminding us that in the journey of life, happiness is not just a destination, but a way of being.
+In an era overshadowed by the hustle of daily life, our project serves as a beacon of positivity. Inspired by the global pursuit of happiness, it offers a platform for daily affirmations, well-being tips, and spreading kindness. It emphasizes mindfulness, gratitude, and connection, empowering users to share and discover joy. This application is more than technology; it's about building a community that values happiness and well-being.
 
 ## Goal
-The goal section provides a concise summary of the main objective or purpose of the project or software described in this README. It addresses the following aspects:
+Our goal is to provide a sanctuary where individuals can cultivate happiness and well-being through daily affirmations, positive quotes, and mindfulness practices. We aim to:
 
-- ➡️ Problem Statement
-- ➡️ Objective(s)
-- ➡️ Target Audience
-- ➡️ Benefits
+- Address the need for a positive mental health resource in the digital age.
+- Offer accessible tools for cultivating gratitude and mindfulness.
+- Engage a broad audience seeking to enhance their mental well-being.
+- Benefit users by fostering a positive outlook and a supportive community.
 
 ## Tech
-In the tech section, we provide information about the technology stack, dependencies, and any technical details related to the project.
+The project leverages a modern tech stack:
+
+- **Frontend**: HTML5, CSS3 with Bootstrap for responsive design, and vanilla JavaScript for interactive elements.
+- **Deployment**: Hosted on GitHub Pages for global accessibility.
+- **Tools**: GitHub for version control and collaboration, and Google Fonts for typography.
+
+## Testing
+
+Our project adopts Jest for comprehensive JavaScript testing to ensure robust and error-free functionality. This ensures a seamless and positive user experience across features, including daily affirmations, and the mindful email generator.
+
+In a scenario in which we had more time, We would have liked to test more comprehensively.
+
+![Jest Results](documentation/jestresults.webp)
 
 ## Credits
-In the credits section, we provide information about the sources used
+Special thanks to:
 
-fatima
+- **CodeInstitute** for organizing the Hackathon.
+- **Unsplash** and **Cloudinary** for providing high-quality images.
+- **FontAwesome** for the wide range of icons used throughout the application.
+- Every team member for their dedication, creativity, and hard work.
