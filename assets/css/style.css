@@ -100,6 +100,32 @@ body {
   opacity: 1;
 }
 
+/***** SECTION ABOUT US *****/
+.section__about-us {
+  padding: 10rem 0;
+}
+
+.about_us-box {
+  align-items: center;
+}
+
+.heading-secondary {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+}
+
+.image__box {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  padding: 1.5rem;
+}
 
 /***** SECTION ARTICLES *****/
 
