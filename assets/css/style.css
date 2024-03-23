@@ -4,6 +4,8 @@
   --color-bg-card-dark: #4bbfb4;
   --color-bg-card-light: #c9ece9;
 
+  --color-primary-dar: #26605a;
+
 
 }
 
@@ -41,10 +43,7 @@ body {
   justify-content: flex-end;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a
+<<<<<<< HEAD=======>>>>>>>d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a
 /***** SECTION ARTICLES *****/
 
 .section__articles {
@@ -149,10 +148,6 @@ body {
   }
 }
 
-<<<<<<< HEAD
-/***** LETTER GENERATOR FORM *****/
-
-=======
 /* Media query for Navbar */
 @media (max-width: 500px) {
   .navbar-brand {
@@ -161,19 +156,27 @@ body {
   }
 
   .navbar-brand img {
-    margin-bottom: 10px; 
-    margin-right: 0; 
+    margin-bottom: 10px;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 350px) {
   .navbar-brand img {
     width: 120px;
-    height: auto; 
+    height: auto;
   }
 
   .navbar-brand {
     font-size: 1.2rem;
   }
 }
->>>>>>> d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a
+
+/***** LETTER GENERATOR FORM *****/
+
+.heading-primary {
+  font-size: 2.5rem;
+  font-family: "Akaya Telivigala", system-ui, sans-serif;
+  text-align: center;
+  color: var(--color-primary-dar);
+}
