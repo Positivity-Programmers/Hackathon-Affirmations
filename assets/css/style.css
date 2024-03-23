@@ -79,7 +79,7 @@ body {
 .card__picture-box img {
   width: 100%;
   transition: 0.5s all ease-in-out;
-
+  display: block;
 }
 
 .card__picture-box:hover img {
