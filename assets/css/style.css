@@ -5,7 +5,10 @@
   --color-bg-card-light: #c9ece9;
 
   --color-primary-dark: #26605a;
+  --color-primary-dark-2: #44aca2;
   --color-primary-light: #edf9f8;
+
+  --color-secondary-dark: #fab005;
 }
 
 .ut-margin-top {
@@ -22,7 +25,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #fff3bf;
+  background-color: var(--color-primary-light);
 }
 
 .navbar-brand {
@@ -35,6 +38,10 @@ body {
   color: currentColor;
 }
 
+.nav-item {
+  margin: 0 0.3rem;
+}
+
 .navbar-brand img {
   margin-right: 15px;
 }
@@ -44,7 +51,22 @@ body {
   justify-content: flex-end;
 }
 
-<<<<<<< HEAD=======>>>>>>>d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: var(--color-primary-dark-2);
+
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+
 /***** SECTION ARTICLES *****/
 
 .section__articles {
@@ -95,7 +117,7 @@ body {
   justify-content: center;
   font-size: 4rem;
   opacity: 0.6;
-  color: #5dc5bc;
+  color: var(--color-secondary-dark);
 }
 
 .card-title {
@@ -229,6 +251,7 @@ body {
   color: var(--color-primary-light);
   background-color: var(--color-primary-dark);
   font-weight: bolder;
+  cursor: pointer;
 
   transition: all 0.7s;
 }
