@@ -44,7 +44,7 @@ body {
   justify-content: flex-end;
 }
 
-<<<<<<< HEAD=======>>>>>>>d588ba6d7943f5caf1b9bf343f3eb296ddd97a1a
+
 /***** SECTION ARTICLES *****/
 
 .section__articles {
@@ -229,6 +229,7 @@ body {
   color: var(--color-primary-light);
   background-color: var(--color-primary-dark);
   font-weight: bolder;
+  cursor: pointer;
 
   transition: all 0.7s;
 }
