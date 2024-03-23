@@ -59,6 +59,6 @@ In a scenario in which we had more time, We would have liked to test more compre
 Special thanks to:
 
 - **CodeInstitute** for organizing the Hackathon.
-- **Unsplash** and **Cloudinary** for providing high-quality images.
-- **FontAwesome** for the wide range of icons used throughout the application.
+- **Pexels** for providing high-quality images.
+- **FontAwesome** for the icons used by the application.
 - Every team member for their dedication, creativity, and hard work.
