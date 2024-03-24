@@ -23,8 +23,7 @@ Our team addressed the applicable criteria with innovative solutions:
 
 - Use of **Bootstrap** to ensure a responsive and engaging design.
 - Effective planning with **GitHub Projects** and documentation in **README.md**.
-- Aligns with the Hackathon theme through innovative features that promote happiness and well-being. As well as featuring Google page translation, 
-So we can spread happiness to all friends around the world.
+- Aligns with the Hackathon theme through innovative features that promote happiness and well-being.
 - Demonstrates responsiveness, accessibility and has undergone testing across devices and browsers, As well as Jest & Light house testing.
 - Introduced innovative features like the **Mindful Email Generator** and **Affirmations Generator**.
 - Emphasized collaborative effort with active participation from all team members, showcasing high-quality code and inclusive practices.
