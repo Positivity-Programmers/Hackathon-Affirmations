@@ -68,7 +68,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/script.js" type="module" defer></script>
     <script src="assets/js/lettergenerator.js" defer></script>
-    <link rel="preload" href="images/logo.webp" as="image">
+    <link rel="preload" href="images/logo.webp" as="image" />
   </head>
   <body>
     <!-- Nav Bar -->
@@ -81,11 +81,12 @@
             width="160"
             height="160"
             class="d-inline-block align-text-top img-fluid"
-            srcset="images/logo-small.webp 80w,
-                images/logo-medium.webp 160w"
+            srcset="images/logo-small.webp 80w, images/logo-medium.webp 160w"
             sizes="(max-width: 768px) 80px,
-                160px">
-          Daily Affirmations</a>
+                160px"
+          />
+          Daily Affirmations</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -125,14 +126,17 @@
         <div class="row">
           <div class="col-12 m-0">
             <h2 class="m-3" id="affirm-header">Affirmations</h2>
-            <button class="btn-lg m-3 hvr-pulse-grow text-center" id="affirm-btn">
+            <button
+              class="btn-lg m-3 hvr-pulse-grow text-center"
+              id="affirm-btn"
+            >
               Generate
             </button>
           </div>
         </div>
         <div class="row">
           <div class="col-12 m-0">
-            <div id="display-affirm" class=" col-12 m-auto rounded-3"></div>
+            <div id="display-affirm" class="col-12 m-auto rounded-3"></div>
           </div>
         </div>
       </section>
@@ -187,20 +191,26 @@
                     src="images/img-1-medium.webp"
                     alt="Image 1"
                     class="image__img img-fluid"
-                    srcset="images/image-1-small.webp 150w,
-                          images/img-1-medium.webp 300w"
+                    srcset="
+                      images/image-1-small.webp 150w,
+                      images/img-1-medium.webp  300w
+                    "
                     sizes="(max-width: 768px) 150px,
-                          600px">
+                          600px"
+                  />
                 </figure>
                 <figure class="image__item image__item--2">
                   <img
                     src="images/img-2-medium.webp"
                     alt="Image 2"
                     class="image__img img-fluid"
-                    srcset="images/image-2-small.webp 150w,
-                          images/img-2-medium.webp 300w"
+                    srcset="
+                      images/image-2-small.webp 150w,
+                      images/img-2-medium.webp  300w
+                    "
                     sizes="(max-width: 768px) 150px,
-                          600px">
+                          600px"
+                  />
                 </figure>
               </div>
             </div>
@@ -364,14 +374,20 @@
     </footer>
     <!-- Google Translate Scripts -->
     <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    }
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
+      }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
     <!-- Bootstrap script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
