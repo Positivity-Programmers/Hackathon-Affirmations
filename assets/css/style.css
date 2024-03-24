@@ -147,7 +147,7 @@ body {
 }
 
 #display-affirm {
-  background-color: var(--color-secondary-light);
+  background-image: linear-gradient(to right bottom, var(--color-secondary-light), var(--color-secondary-dark));
   width: 50%;
   font-size: 1.5rem;
 }
@@ -429,6 +429,7 @@ body {
   background-color: var(--color-primary-light);
 }
 
+
 /* Responsive adjustments For Positive Quote ciricles*/
 @media (max-width: 991px) {
   .quote-circle .circle {
@@ -492,3 +493,13 @@ body {
 
   }
 }
+
+  /* GOOGLE TRANSLATE API STYLE*/
+  /*.skiptranslate,
+.goog-te-gadget-simple {
+  background-color: var(--color-primary-dark) !important;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+  color: #fff;
+  font-weight: bolder;*/
