@@ -338,7 +338,6 @@ body {
   text-align: center;
 }
 
-/***** END OF SECTION ARTICLES *****/
 
 /** POSITIVE QUOTE CIRCLES **/
 
@@ -362,47 +361,6 @@ body {
   font-size: 1.3rem;
   text-align: center;
   font-weight: 600;
-}
-
-/* Responsive adjustments For Positive Quote ciricles*/
-@media (max-width: 991px) {
-  .quote-circle .circle {
-    height: 150px;
-    width: 150px;
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 575px) {
-  .quote-circle .circle {
-    height: 120px;
-    width: 120px;
-    font-size: 0.7rem;
-  }
-}
-
-/* Media query for Navbar */
-@media (max-width: 500px) {
-  .navbar-brand {
-    flex-direction: column;
-    margin-left: 10px;
-  }
-
-  .navbar-brand img {
-    margin-bottom: 10px;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 350px) {
-  .navbar-brand img {
-    width: 120px;
-    height: auto;
-  }
-
-  .navbar-brand {
-    font-size: 1.2rem;
-  }
 }
 
 /***** LETTER GENERATOR FORM *****/
@@ -469,4 +427,68 @@ body {
 .btn:hover {
   color: var(--color-primary-dark);
   background-color: var(--color-primary-light);
+}
+
+/* Responsive adjustments For Positive Quote ciricles*/
+@media (max-width: 991px) {
+  .quote-circle .circle {
+    height: 150px;
+    width: 150px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .quote-circle .circle {
+    height: 120px;
+    width: 120px;
+    font-size: 0.7rem;
+  }
+}
+
+/* Media query for Navbar */
+@media (max-width: 500px) {
+  .navbar-brand {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .navbar-brand img {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1225px) {
+  .navbar-brand {
+    font-size: 2rem;
+    margin-right: 25px;
+  }
+
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+
+  }
+
+  .navbar-nav {
+    margin-left: 50px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    /* Adjust the font size of the navbar links */
+
+  }
 }
