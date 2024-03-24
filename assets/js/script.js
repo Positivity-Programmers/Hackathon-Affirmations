@@ -11,3 +11,4 @@ function generateRandomAffirm() {
     
 }
 affirmBtn.addEventListener('click', generateRandomAffirm)
+
