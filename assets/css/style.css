@@ -430,6 +430,42 @@ body {
   background-color: var(--color-primary-light);
 }
 
+/* GOOGLE TRANSLATE API STYLE*/
+.skiptranslate,
+.goog-te-gadget-simple {
+  background-color: var(--color-primary-dark) !important;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+  color: #fff;
+  font-weight: bolder;
+}
+
+/* Translate button */
+.bg-translate {
+  background-color: var(--color-primary-light);
+}
+
+.translate-btn {
+  background-color: var(--color-primary-dark);
+  color: #f2f2f2;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+  border-radius: 30px;
+}
+
+.google-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+.google-icon-text {
+  font-size: 0.5rem;
+  font-weight: bolder;
+  margin-left: 0.5rem;
+
+}
 
 /* Responsive adjustments For Positive Quote ciricles*/
 @media (max-width: 991px) {
@@ -472,7 +508,6 @@ body {
   }
 }
 
-
 .navbar-brand img {
   width: 120px;
   height: auto;
@@ -488,14 +523,3 @@ body {
   /* Adjust the font size of the navbar links */
 
 }
-
-
-/* GOOGLE TRANSLATE API STYLE*/
-/*.skiptranslate,
-.goog-te-gadget-simple {
-  background-color: var(--color-primary-dark) !important;
-}
-
-.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
-  color: #fff;
-  font-weight: bolder;*/
