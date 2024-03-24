@@ -9,6 +9,7 @@
   --color-primary-light: #edf9f8;
 
   --color-secondary-dark: #fab005;
+  --color-secondary-light: #fff3bf;
 }
 
 .ut-margin-top {
@@ -18,7 +19,7 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   color: var(--color-primary-dark);
-  
+
 }
 
 
@@ -29,8 +30,6 @@ body {
   background-color: var(--color-primary-light);
 }
 
-
-
 .navbar-brand {
   display: flex;
   flex-direction: row;
@@ -38,6 +37,7 @@ body {
   font-family: "Akaya Telivigala", system-ui, sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
+  padding-right: 5rem;
   color: currentColor;
 }
 
@@ -101,6 +101,8 @@ body {
   opacity: 1;
 }
 
+/* END OF ANIMATION NAVBAR LINK */
+
 /***** SECTION ABOUT US *****/
 .section__about-us {
   padding: 6rem 0;
@@ -116,6 +118,9 @@ body {
   margin-bottom: 3rem;
   text-align: center;
 }
+
+/***** END OF SECTION ABOUT US *****/
+
 
 /***** SECTION AFFIRMATIONS GENERATOR *****/
 
@@ -137,31 +142,31 @@ body {
   font-size: 1rem;
   font-weight: bolder;
   padding: 15px 40px;
-  border-radius: 1rem;
+  border-radius: 30px;
   border-color: #26605a;
   width: 20%;
 }
 
 #display-affirm {
-  background-color: #fff3bf;
+  background-image: linear-gradient(to right bottom, var(--color-secondary-light), var(--color-secondary-dark));
   width: 50%;
   font-size: 1.5rem;
 }
 
 @keyframes moveInLeft {
-    0% {
-        opacity: 0;
-        transform: translate(-100px);
-    }
-    
-    80% {
-        transform: translate(20px);
-    }
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
+  80% {
+    transform: translate(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 
 }
 
@@ -172,6 +177,7 @@ body {
     transform: scale(1.1);
   }
 }
+
 @keyframes hvr-pulse-grow {
   to {
     -webkit-transform: scale(1.1);
@@ -187,7 +193,9 @@ body {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+.hvr-pulse-grow:hover,
+.hvr-pulse-grow:focus,
+.hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
   -webkit-animation-duration: 0.3s;
@@ -200,10 +208,26 @@ body {
   animation-direction: alternate;
 }
 
+
 @media (max-width: 800px) {
   #affirm-btn {
     width: 50%;
     font-size: 10px;
+  }
+
+  #display-affirm {
+    background-color: #fff3bf;
+    width: 60%;
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 400px) {
+  #display-affirm {
+    background-color: #fff3bf;
+    width: 80%;
+    font-size: 1rem;
   }
 }
 
@@ -213,6 +237,9 @@ body {
     font-size: 10px;
   }
 }
+
+/***** END OF SECTION AFFIRMATIONS GENERATOR *****/
+
 
 .paragraph {
   font-size: 1.2rem;
@@ -312,17 +339,19 @@ body {
   text-align: center;
 }
 
+
 /** POSITIVE QUOTE CIRCLES **/
+
 .bg-blue {
-  background-color: #4BBFB4;
+  background-color: #f2f2f2;
 }
 
 .quote-circle .circle {
-  background-color: #fff3bf;
-  color: #333;
+  background-image: linear-gradient(to right bottom, var(--color-secondary-light), var(--color-secondary-dark));
+  color: var(--color-primary-dark);
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -330,49 +359,9 @@ body {
   margin: 0 auto;
   /* Center the circle in its column */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   text-align: center;
-}
-
-/* Responsive adjustments For Positive Quote ciricles*/
-@media (max-width: 991px) {
-  .quote-circle .circle {
-    height: 150px;
-    width: 150px;
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 575px) {
-  .quote-circle .circle {
-    height: 120px;
-    width: 120px;
-    font-size: 0.7rem;
-  }
-}
-
-/* Media query for Navbar */
-@media (max-width: 500px) {
-  .navbar-brand {
-    flex-direction: column;
-    margin-left: 10px;
-  }
-
-  .navbar-brand img {
-    margin-bottom: 10px;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 350px) {
-  .navbar-brand img {
-    width: 120px;
-    height: auto;
-  }
-
-  .navbar-brand {
-    font-size: 1.2rem;
-  }
+  font-weight: 600;
 }
 
 /***** LETTER GENERATOR FORM *****/
@@ -427,7 +416,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   padding: 1rem 1rem;
-  border-radius: 9px;
+  border-radius: 30px;
   color: var(--color-primary-light);
   background-color: var(--color-primary-dark);
   font-weight: bolder;
@@ -439,4 +428,98 @@ body {
 .btn:hover {
   color: var(--color-primary-dark);
   background-color: var(--color-primary-light);
+}
+
+/* GOOGLE TRANSLATE API STYLE*/
+.skiptranslate,
+.goog-te-gadget-simple {
+  background-color: var(--color-primary-dark) !important;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+  color: #fff;
+  font-weight: bolder;
+}
+
+/* Translate button */
+.bg-translate {
+  background-color: var(--color-primary-light);
+}
+
+.translate-btn {
+  background-color: var(--color-primary-dark);
+  color: #f2f2f2;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+  border-radius: 30px;
+}
+
+.google-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+.google-icon-text {
+  font-size: 0.5rem;
+  font-weight: bolder;
+  margin-left: 0.5rem;
+
+}
+
+/* Responsive adjustments For Positive Quote ciricles*/
+@media (max-width: 991px) {
+  .quote-circle .circle {
+    height: 150px;
+    width: 150px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .quote-circle .circle {
+    height: 120px;
+    width: 120px;
+    font-size: 0.7rem;
+  }
+}
+
+/* Media query for Navbar */
+@media (max-width: 500px) {
+  .navbar-brand {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .navbar-brand img {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+
+.navbar-brand img {
+  width: 120px;
+  height: auto;
+
+}
+
+.navbar-nav {
+  margin-left: 50px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  /* Adjust the font size of the navbar links */
+
 }

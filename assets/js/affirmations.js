@@ -52,27 +52,4 @@ const affirmations = [
 
 ];
 
-function generateRandomAffirm() {
-    return affirmations[Math.floor(Math.random() * affirmations.length)];
-    // const affirmationsList = document.getElementById('affirm-list');
-    // affirmationsList.innerHTML = '';
-
-    // for (let i = 0; i < 1; i++) {
-    //     const randomIndex = Math.floor(Math.random() * affirmations.length);
-    //     const affirmation = affirmations[randomIndex];
-
-    //     const listItem = document.createElement('li');
-    //     listItem.textContent = affirmation;
-    //     affirmationsList.appendChild(listItem);
-    // }
-}
-
-function generateAffirm() {
-    document.getElementById('affirm1').textContent = generateRandomAffirm();
-    document.getElementById('affirm2').textContent = generateRandomAffirm();
-    document.getElementById('affirm3').textContent = generateRandomAffirm();
-  }
-
-document.getElementById('generate-btn').addEventListener('click', generateAffirm);
-
 export { affirmations }

@@ -1,5 +1,5 @@
+// Affirmations generator script
 import { affirmations } from "./affirmations.js";
-
 
 
 const affirmBtn = document.getElementById('affirm-btn')
@@ -10,18 +10,40 @@ function generateRandomAffirm() {
     const randomAffirmation = affirmations[Math.floor(Math.random() * affirmations.length)]
     displayAffirm.innerHTML = `<p class="text-center p-5"> ${randomAffirmation}</p>`;
     
-    /**for (let i = 0; i < affirmations.length; i++) {
-        if (randomAffirmation === affirmations[i]) {
-            affirmations.splice(i, 1);
-          setTimeout(() => {
-              
-          }, 2000);
-          console.log(true);
-        } else {
-            displayAffirm.innerHTML = `<p class="text-center p-5"> ${randomAffirmation}</p>`;
-        }
-    }
-    **/
-    
 }
 affirmBtn.addEventListener('click', generateRandomAffirm)
+
+// Generates 3 random affirmations
+
+function generateRandomAffirmation() {
+  return affirmations[Math.floor(Math.random() * affirmations.length)];
+}
+
+function generateAffirm() {
+  document.getElementById('affirm1').textContent = generateRandomAffirmation();
+  document.getElementById('affirm2').textContent = generateRandomAffirmation();
+  document.getElementById('affirm3').textContent = generateRandomAffirmation();
+}
+
+document.getElementById('generate-btn').addEventListener('click', generateAffirm);
+
+// Google Translate Script
+document.getElementById('loadTranslate').onclick = function() {
+    var translateScript = document.createElement('script');
+    translateScript.type = 'text/javascript';
+    translateScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    document.body.appendChild(translateScript);
+
+    // Initialize translation widget once the script is loaded
+    window.googleTranslateElementInit = function() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    };
+
+    // Hide the button after it's clicked
+    this.style.display = 'none';
+  };
+
+  
