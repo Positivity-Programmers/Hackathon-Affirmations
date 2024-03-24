@@ -442,17 +442,29 @@ body {
 }
 
 /* Translate button */
+.bg-translate {
+  background-color: var(--color-primary-light);
+}
+
 .translate-btn {
-  background-color: #26605a;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1rem;
-  font-weight: bolder;
-  padding: 15px 40px;
+  background-color: var(--color-primary-dark);
+  color: #f2f2f2;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
   border-radius: 30px;
-  border-color: #26605a;
-  width: 10%;
+}
+
+.google-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+.google-icon-text {
+  font-size: 0.5rem;
+  font-weight: bolder;
+  margin-left: 0.5rem;
+
 }
 
 /* Responsive adjustments For Positive Quote ciricles*/
@@ -494,9 +506,7 @@ body {
   .navbar-brand {
     font-size: 1.2rem;
   }
-  
 }
-
 
 .navbar-brand img {
   width: 120px;
@@ -512,16 +522,4 @@ body {
   font-size: 1rem;
   /* Adjust the font size of the navbar links */
 
-}
-
-
-/* GOOGLE TRANSLATE API STYLE*/
-/*.skiptranslate,
-.goog-te-gadget-simple {
-  background-color: var(--color-primary-dark) !important;
-}
-
-.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
-  color: #fff;
-  font-weight: bolder;*/
 }
