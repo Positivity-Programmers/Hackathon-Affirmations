@@ -364,6 +364,19 @@ body {
   font-weight: 600;
 }
 
+#generate-btn {
+  background-color: #26605a;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 15px 40px;
+  border-radius: 30px;
+  border-color: #26605a;
+  width: 20%;
+}
+
 /***** LETTER GENERATOR FORM *****/
 .section__letter-form {
   margin-top: 3rem;

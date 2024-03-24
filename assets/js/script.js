@@ -16,14 +16,24 @@ affirmBtn.addEventListener('click', generateRandomAffirm)
 // Generates 3 random quotes
 
 import { quotes } from "./quotes.js";
-function generateRandomQuote() {
-  return quotes[Math.floor(Math.random() * quotes.length)];
+function generateRandomQuote(excludedQuotes = []) {
+    // Filter out  excluded quotes
+  const filteredQuotes = quotes.filter(quote => !excludedQuotes.includes(quote));
+  // Select random quote from filtered list
+  if (filteredQuotes.length > 0) {
+  return filteredQuotes[Math.floor(Math.random() * filteredQuotes.length)];
+    } 
 }
 
 function generateQuote() {
-  document.getElementById('affirm1').textContent = generateRandomQuote();
-  document.getElementById('affirm2').textContent = generateRandomQuote();
-  document.getElementById('affirm3').textContent = generateRandomQuote();
+    const selectedQuotes = [];
+
+    for (let i = 1; i <= 3; i++) {
+        let quote = generateRandomQuote(selectedQuotes);
+        document.getElementById(`quote${i}`).textContent = quote;
+        // Add selected quotes to  list of excluded quotes for nxt iteration
+        selectedQuotes.push(quote); 
+    }
 }
 
 document.getElementById('generate-btn').addEventListener('click', generateQuote);
@@ -35,7 +45,7 @@ document.getElementById('loadTranslate').onclick = function() {
     translateScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
     document.body.appendChild(translateScript);
 
-    // Initialize translation widget once the script is loaded
+    // Initialize translation widget once script loaded
     window.googleTranslateElementInit = function() {
       new google.translate.TranslateElement({
         pageLanguage: 'en',
