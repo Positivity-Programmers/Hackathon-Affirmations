@@ -456,15 +456,15 @@ body {
 .google-icon {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0.2rem;
 }
 
 .google-icon-text {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   font-weight: bolder;
   margin-left: 0.5rem;
-
+  font-family: "Nunito Sans", sans-serif;
 }
 
 /* Responsive adjustments For Positive Quote ciricles*/
