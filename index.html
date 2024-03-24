@@ -68,6 +68,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/script.js" type="module" defer></script>
     <script src="assets/js/lettergenerator.js" defer></script>
+    <link rel="preload" href="images/logo.webp" as="image">
   </head>
   <body>
     <!-- Nav Bar -->
@@ -75,14 +76,16 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img
-            src="images/logo.webp"
+            src="images/logo-medium.webp"
             alt="Logo"
             width="160"
             height="160"
-            class="d-inline-block align-text-top"
-          />
-          Daily Affirmations</a
-        >
+            class="d-inline-block align-text-top img-fluid"
+            srcset="images/logo-small.webp 80w,
+                images/logo-medium.webp 160w"
+            sizes="(max-width: 768px) 80px,
+                160px">
+          Daily Affirmations</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -181,17 +184,23 @@
               <div class="image__box">
                 <figure class="image__item image__item--1">
                   <img
-                    src="images/img-1.webp"
+                    src="images/img-1-medium.webp"
                     alt="Image 1"
-                    class="image__img"
-                  />
+                    class="image__img img-fluid"
+                    srcset="images/image-1-small.webp 150w,
+                          images/img-1-medium.webp 300w"
+                    sizes="(max-width: 768px) 150px,
+                          600px">
                 </figure>
                 <figure class="image__item image__item--2">
                   <img
-                    src="images/img-2.webp"
+                    src="images/img-2-medium.webp"
                     alt="Image 2"
-                    class="image__img"
-                  />
+                    class="image__img img-fluid"
+                    srcset="images/image-2-small.webp 150w,
+                          images/img-2-medium.webp 300w"
+                    sizes="(max-width: 768px) 150px,
+                          600px">
                 </figure>
               </div>
             </div>
