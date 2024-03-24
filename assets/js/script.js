@@ -13,6 +13,20 @@ function generateRandomAffirm() {
 }
 affirmBtn.addEventListener('click', generateRandomAffirm)
 
+// Generates 3 random affirmations
+
+function generateRandomAffirmation() {
+  return affirmations[Math.floor(Math.random() * affirmations.length)];
+}
+
+function generateAffirm() {
+  document.getElementById('affirm1').textContent = generateRandomAffirmation();
+  document.getElementById('affirm2').textContent = generateRandomAffirmation();
+  document.getElementById('affirm3').textContent = generateRandomAffirmation();
+}
+
+document.getElementById('generate-btn').addEventListener('click', generateAffirm);
+
 // Google Translate Script
 document.getElementById('loadTranslate').onclick = function() {
     var translateScript = document.createElement('script');
@@ -31,3 +45,5 @@ document.getElementById('loadTranslate').onclick = function() {
     // Hide the button after it's clicked
     this.style.display = 'none';
   };
+
+  
