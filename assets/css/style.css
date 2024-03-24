@@ -9,6 +9,7 @@
   --color-primary-light: #edf9f8;
 
   --color-secondary-dark: #fab005;
+  --color-secondary-light: #fff3bf;
 }
 
 .ut-margin-top {
@@ -18,7 +19,7 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   color: var(--color-primary-dark);
-  
+
 }
 
 
@@ -143,25 +144,25 @@ body {
 }
 
 #display-affirm {
-  background-color: #fff3bf;
+  background-color: var(--color-secondary-light);
   width: 50%;
   font-size: 1.5rem;
 }
 
 @keyframes moveInLeft {
-    0% {
-        opacity: 0;
-        transform: translate(-100px);
-    }
-    
-    80% {
-        transform: translate(20px);
-    }
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
+  80% {
+    transform: translate(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 
 }
 
@@ -172,6 +173,7 @@ body {
     transform: scale(1.1);
   }
 }
+
 @keyframes hvr-pulse-grow {
   to {
     -webkit-transform: scale(1.1);
@@ -187,7 +189,9 @@ body {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+.hvr-pulse-grow:hover,
+.hvr-pulse-grow:focus,
+.hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
   -webkit-animation-duration: 0.3s;
@@ -314,15 +318,15 @@ body {
 
 /** POSITIVE QUOTE CIRCLES **/
 .bg-blue {
-  background-color: #4BBFB4;
+  background-color: #f2f2f2;
 }
 
 .quote-circle .circle {
-  background-color: #fff3bf;
-  color: #333;
+  background-image: linear-gradient(to right bottom, var(--color-secondary-light), var(--color-secondary-dark));
+  color: var(--color-primary-dark);
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -330,8 +334,9 @@ body {
   margin: 0 auto;
   /* Center the circle in its column */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   text-align: center;
+  font-weight: 600;
 }
 
 /* Responsive adjustments For Positive Quote ciricles*/
