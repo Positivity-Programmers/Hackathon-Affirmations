@@ -429,6 +429,30 @@ body {
   background-color: var(--color-primary-light);
 }
 
+/* GOOGLE TRANSLATE API STYLE*/
+.skiptranslate,
+.goog-te-gadget-simple {
+  background-color: var(--color-primary-dark) !important;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+  color: #fff;
+  font-weight: bolder;
+}
+
+/* Translate button */
+.translate-btn {
+  background-color: #26605a;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 15px 40px;
+  border-radius: 30px;
+  border-color: #26605a;
+  width: 10%;
+}
 
 /* Responsive adjustments For Positive Quote ciricles*/
 @media (max-width: 991px) {
@@ -470,14 +494,3 @@ body {
     font-size: 1.2rem;
   }
 }
-
-
-/* GOOGLE TRANSLATE API STYLE*/
-/*.skiptranslate,
-.goog-te-gadget-simple {
-  background-color: var(--color-primary-dark) !important;
-}
-
-.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
-  color: #fff;
-  font-weight: bolder;*/
