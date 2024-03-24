@@ -472,28 +472,23 @@ body {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1225px) {
-  .navbar-brand {
-    font-size: 2rem;
-    margin-right: 25px;
-  }
 
-  .navbar-brand img {
-    width: 120px;
-    height: auto;
+.navbar-brand img {
+  width: 120px;
+  height: auto;
 
-  }
-
-  .navbar-nav {
-    margin-left: 50px;
-  }
-
-  .nav-link {
-    font-size: 1rem;
-    /* Adjust the font size of the navbar links */
-
-  }
 }
+
+.navbar-nav {
+  margin-left: 50px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  /* Adjust the font size of the navbar links */
+
+}
+
 
 /* GOOGLE TRANSLATE API STYLE*/
 /*.skiptranslate,
