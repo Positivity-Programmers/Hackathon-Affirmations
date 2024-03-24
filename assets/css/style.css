@@ -18,7 +18,7 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   color: var(--color-primary-dark);
-  
+
 }
 
 
@@ -98,6 +98,7 @@ body {
   top: 50%;
   opacity: 1;
 }
+
 /* END OF ANIMATION NAVBAR LINK */
 
 /***** SECTION ABOUT US *****/
@@ -115,6 +116,7 @@ body {
   margin-bottom: 3rem;
   text-align: center;
 }
+
 /***** END OF SECTION ABOUT US *****/
 
 
@@ -150,19 +152,19 @@ body {
 }
 
 @keyframes moveInLeft {
-    0% {
-        opacity: 0;
-        transform: translate(-100px);
-    }
-    
-    80% {
-        transform: translate(20px);
-    }
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
+  80% {
+    transform: translate(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 
 }
 
@@ -173,6 +175,7 @@ body {
     transform: scale(1.1);
   }
 }
+
 @keyframes hvr-pulse-grow {
   to {
     -webkit-transform: scale(1.1);
@@ -188,7 +191,9 @@ body {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+.hvr-pulse-grow:hover,
+.hvr-pulse-grow:focus,
+.hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
   -webkit-animation-duration: 0.3s;
@@ -213,7 +218,7 @@ body {
     width: 60%;
     font-size: 1.5rem;
   }
-  
+
 }
 
 @media (max-width: 400px) {
