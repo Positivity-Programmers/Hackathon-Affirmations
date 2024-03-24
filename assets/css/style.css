@@ -494,7 +494,7 @@ body {
   .navbar-brand {
     font-size: 1.2rem;
   }
-  
+
 }
 
 
@@ -510,18 +510,4 @@ body {
 
 .nav-link {
   font-size: 1rem;
-  /* Adjust the font size of the navbar links */
-
-}
-
-
-/* GOOGLE TRANSLATE API STYLE*/
-/*.skiptranslate,
-.goog-te-gadget-simple {
-  background-color: var(--color-primary-dark) !important;
-}
-
-.VIpgJd-ZVi9od-xl07Ob-lTBxed span {
-  color: #fff;
-  font-weight: bolder;*/
 }
