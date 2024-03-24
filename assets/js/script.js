@@ -13,19 +13,20 @@ function generateRandomAffirm() {
 }
 affirmBtn.addEventListener('click', generateRandomAffirm)
 
-// Generates 3 random affirmations
+// Generates 3 random quotes
 
-function generateRandomAffirmation() {
-  return affirmations[Math.floor(Math.random() * affirmations.length)];
+import { quotes } from "./quotes.js";
+function generateRandomQuote() {
+  return quotes[Math.floor(Math.random() * quotes.length)];
 }
 
-function generateAffirm() {
-  document.getElementById('affirm1').textContent = generateRandomAffirmation();
-  document.getElementById('affirm2').textContent = generateRandomAffirmation();
-  document.getElementById('affirm3').textContent = generateRandomAffirmation();
+function generateQuote() {
+  document.getElementById('affirm1').textContent = generateRandomQuote();
+  document.getElementById('affirm2').textContent = generateRandomQuote();
+  document.getElementById('affirm3').textContent = generateRandomQuote();
 }
 
-document.getElementById('generate-btn').addEventListener('click', generateAffirm);
+document.getElementById('generate-btn').addEventListener('click', generateQuote);
 
 // Google Translate Script
 document.getElementById('loadTranslate').onclick = function() {
