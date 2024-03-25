@@ -18,6 +18,8 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
   }
-  }
-
+}

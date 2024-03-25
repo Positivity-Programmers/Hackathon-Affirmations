@@ -82,11 +82,17 @@ The project leverages a modern tech stack:
 
 **Jest**
 
-Our project adopts Jest for comprehensive JavaScript testing to ensure robust and error-free functionality. This ensures a seamless and positive user experience across features, including daily affirmations, and the mindful email generator.
+![Jest Results](documentation/jestresults.webp)
+
+**Lighhouse Desktop**
+
+![Jest Results](documentation/lighdesktop.webp)
+
+**Lighthouse Mobile**
+
+![Jest Results](documentation/lightmob.webp.webp)
 
 In a scenario in which we had more time, We would have liked to test more comprehensively.
-
-![Jest Results](documentation/jestresults.webp)
 
 ## Technologies Used
 
