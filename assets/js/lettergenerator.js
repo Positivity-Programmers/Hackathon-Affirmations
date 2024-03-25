@@ -7,11 +7,6 @@ document.getElementById("generateEmail").addEventListener("click", function () {
   const subject = "A Special Message For You";
   const message = generateMessage(messageCategory, senderName);
 
-  // Check if any of the fields are empty
-  if (!recipientEmail || !messageCategory || !senderName) {
-    return; // Exit the function if any field is empty
-  }
-
   // Open default mail client
   window.location.href = `mailto:${recipientEmail}?subject=${encodeURIComponent(
     subject
