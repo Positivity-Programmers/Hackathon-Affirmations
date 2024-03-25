@@ -90,7 +90,8 @@ The project leverages a modern tech stack:
 
 **Lighthouse Mobile**
 
-![Lighthouse Mobile Results](documentation/lightmob.webp.webp)
+
+![Jest Results](documentation/lightmob.webp)
 
 **Validation**
 
@@ -101,6 +102,7 @@ The project leverages a modern tech stack:
 ![JS Valid Script](documentation/jsscriptvalid.webp)
 
 ![JS Valid Letter generator](documentation/jslettergenvalid.webp)
+
 
 In a scenario in which we had more time, We would have liked to test more comprehensively.
 
