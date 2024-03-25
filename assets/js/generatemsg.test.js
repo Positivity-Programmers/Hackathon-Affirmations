@@ -24,9 +24,10 @@ describe('generateMessage', () => {
     const categories = ['motivation', 'gratitude', 'inspiration'];
     categories.forEach(category => {
       const result = generateMessage(category, senderName);
-      expect(result).toContain(senderName); // Ensures the sender's name is included
-      expect(typeof result).toBe('string'); // Ensures the result is a string
-      expect(result).toMatch(new RegExp('- ' + senderName + '$')); // Ensures the message format "<message> - <senderName>"
+      expect(result).toContain(senderName); // Ensures sender's name is included
+      expect(typeof result).toBe('string'); // Ensures result is a string
+      // Ensures message format "<message> - <senderName>"
+      expect(result).toMatch(new RegExp('- ' + senderName + '$'));
     });
   });
 
