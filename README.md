@@ -86,11 +86,23 @@ The project leverages a modern tech stack:
 
 **Lighhouse Desktop**
 
-![Jest Results](documentation/lighdesktop.webp)
+![Lighthouse Desktop Results](documentation/lighdesktop.webp)
 
 **Lighthouse Mobile**
 
+
 ![Jest Results](documentation/lightmob.webp)
+
+**Validation**
+
+![HTML Valid](documentation/htnlvalid.webp)
+
+![CSS Valid](documentation/cssvalid.webp)
+
+![JS Valid Script](documentation/jsscriptvalid.webp)
+
+![JS Valid Letter generator](documentation/jslettergenvalid.webp)
+
 
 In a scenario in which we had more time, We would have liked to test more comprehensively.
 
@@ -106,6 +118,8 @@ In a scenario in which we had more time, We would have liked to test more compre
 * [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing
 * [Favicon Generator](https://favicon.io/) - Used to create the favicon for the website
 * [Am I Responsive](http://ami.responsivedesign.is/) - To show the website image on a range of devices
+* Jest for testing Javascript
+* Google Translate to translate page
 
 ## Credits
 Special thanks to:

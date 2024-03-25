@@ -1,4 +1,5 @@
-"use strict";
+/* jshint esversion: 11, jquery: true */
+
 // Affirmations generator script
 import { affirmations } from "./affirmations.js";
 

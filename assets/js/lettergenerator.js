@@ -1,5 +1,5 @@
+/* jshint esversion: 11, jquery: true */
 
-"use strict";
 document.getElementById("generateEmail").addEventListener("click", function () {
   const recipientEmail = document.getElementById("recipientEmail").value;
   const messageCategory = document
