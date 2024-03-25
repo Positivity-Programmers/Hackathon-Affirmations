@@ -496,16 +496,16 @@ footer a{
 /* Responsive adjustments For Positive Quote ciricles*/
 @media (max-width: 991px) {
   .quote-circle .circle {
-    height: 150px;
-    width: 150px;
-    font-size: 0.8rem;
+    height: 200px;
+    width: 200px;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 575px) {
   .quote-circle .circle {
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     font-size: 0.7rem;
   }
 }
