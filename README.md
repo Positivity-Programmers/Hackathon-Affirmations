@@ -88,6 +88,19 @@ In a scenario in which we had more time, We would have liked to test more compre
 
 ![Jest Results](documentation/jestresults.webp)
 
+## Technologies Used
+
+* HTML5 - Delivers the structure and content for the website
+* CSS3 - Provides the styling for the website
+* VS Code - Used to develop the website
+* JavaScript - Provides functionality for the website
+* Gitbash - Terminal used to push changes to the GitHub repository
+* GitHub - Used to host and deploy the website
+* Chrome Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling
+* [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing
+* [Favicon Generator](https://favicon.io/) - Used to create the favicon for the website
+* [Am I Responsive](http://ami.responsivedesign.is/) - To show the website image on a range of devices
+
 ## Credits
 Special thanks to:
 
