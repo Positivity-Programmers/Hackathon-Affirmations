@@ -18,6 +18,34 @@ HTML / CSS / Javascript / Bootstrap
 ## Deployment
 The project is deployed with Git Pages and can be accessed at [https://positivity-programmers.github.io/Hackathon-Affirmations/](https://positivity-programmers.github.io/Hackathon-Affirmations/).
 
+# Deployment & Local Development
+## Deployment
+The website was deployed to GitHub pages via the following steps:
+1. Log in (or sign up) to Github
+2. Go to the repository for this project
+3. Click settings 
+4. Under code and automation, click pages
+5. Select main branch
+6. Click save
+
+## Local Development
+### How to Fork
+To fork the repository:
+1. Log in (or sign up) to Github
+2. Go to the repository for this project
+3. Click the Fork button in the top right corner
+
+### How to Clone
+To clone the repository:
+1. Log in (or sign up) to Github
+2. Go to the repository for this project
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI
+4. Copy the link shown
+5. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
+6. Type 'git clone' into the terminal 
+7.  Paste the link you copied in step 3
+8. Press enter
+
 ## Criteria
 Our team addressed the applicable criteria with innovative solutions:
 
