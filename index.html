@@ -66,7 +66,7 @@
     ></script>
     <!-- Link to stylesheet and Javascript-->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/js/script.js" type="module" defer></script>
+    <script src="assets/js/script.js" type="module"></script>
     <script src="assets/js/lettergenerator.js" defer></script>
     <link rel="preload" href="images/logo-medium.webp" as="image" />
   </head>
@@ -362,6 +362,7 @@
               >Message Category</label
             >
             <select class="form-select" id="messageCategory" required>
+              <option value="" disabled selected>Select an option</option>
               <option value="Motivation">Motivation</option>
               <option value="Gratitude">Gratitude</option>
               <option value="Inspiration">Inspiration</option>
@@ -386,8 +387,14 @@
     <!-- Footer -->
     <footer>
       <p>Created by Positivity Programmers</p>
-      <a href="https://github.com/Positivity-Programmers/Hackathon-Affirmations.git" target="_blank" rel="noopener" aria-label="visit our Github page (opens in a new tab)"><i class="fa-brands fa-github"></i> Github Repository</a> 
-
+      <a
+        href="https://github.com/Positivity-Programmers/Hackathon-Affirmations.git"
+        target="_blank"
+        rel="noopener"
+        aria-label="visit our Github page (opens in a new tab)"
+        ><i class="fa-brands fa-github"></i> Github Repository</a
+      >
+    </footer>
     <!-- Bootstrap script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
