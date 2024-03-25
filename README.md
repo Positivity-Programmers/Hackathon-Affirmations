@@ -90,7 +90,7 @@ The project leverages a modern tech stack:
 
 **Lighthouse Mobile**
 
-![Jest Results](documentation/lightmob.webp.webp)
+![Jest Results](documentation/lightmob.webp)
 
 In a scenario in which we had more time, We would have liked to test more comprehensively.
 
