@@ -14,9 +14,11 @@ HTML / CSS / Javascript / Bootstrap
 
 **By Positivity Programmers**
 
+![AmIResponsive](images/amIresponsive.png)
+
 # SUBMISSION
 ## Deployment
-The project is deployed with Git Pages and can be accessed at [https://positivity-programmers.github.io/Hackathon-Affirmations/](https://positivity-programmers.github.io/Hackathon-Affirmations/).
+The project is deployed with Git Pages and can be accessed at [Daily Affirmations](https://positivity-programmers.github.io/Hackathon-Affirmations/).
 
 # Deployment & Local Development
 ## Deployment
